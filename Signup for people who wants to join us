@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--bootstrap-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!--style sheet-->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<style>
+		.card {
+           margin-top: 1em;
+     }
+
+     	.card-title{
+   			text-align: center;
+	}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="container" style="margin-top: 1em;">
+    <!-- Sign up form -->
+    <form>
+        <!-- Sign up card -->
+        <div class="card">
+            <div class="card-body">
+                
+                <h2 id="who_message" class="card-title">Personal Information</h2>
+                <!-- First row (on medium screen) -->
+                <div class="row">
+                   
+                    <div class="form-group col-md-6">
+                        <input id="first_name" type="text" class="form-control" placeholder="First name">
+                        <div id="first_name_feedback" class="invalid-feedback">
+                            
+                        </div>
+                    </div>
+                     <div class="form-group col-md-6">
+                        <input id="last_name" type="text" class="form-control" placeholder="Last name">
+                        <div id="last_name_feedback" class="invalid-feedback">
+                            
+                        </div>
+                    </div>
+
+                     <div class="form-group col-md-6">
+                        <select id="input_sex" class="form-control">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-6">
+
+                    	 <input type="date" name="bday"  placeholder="birthday " style="width: 32.5em;border-radius: 7% ;;">
+                    	
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6" style="padding=0.5em;">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Contact Information</h2>
+                        <div class="form-group">
+                            <label for="email" class="col-form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="example@gmail.com" required>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="tel" class="col-form-label">Phone number</label>
+                            <input type="text" class="form-control" id="tel" placeholder="+1-000-000-0000" required>
+                           
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+             <div class="col-md-6 " style="padding=0.5em;" >
+                <div class="card p-1"> 
+                    <div class="card-body">
+                        <h2 class="card-title">Programming Knowledge</h2>
+                        <div class="form-group">
+                            
+                            <label>languge</label>
+                            <select id="input_sex" class="form-control">
+	                            <option value="html5">HTML</option>
+	                            <option value="css3">CSS</option>
+	                            <option value="bootstrap">Bootstrap</option>
+	                            <option value="jave script">Java Script</option>
+	                            <option value="jquery">Jquery</option>
+	                            <option value="sass">SASSS</option>
+                                <option value="php">PHP</option>
+                                <option value="python">Python</option>
+                                <option value="c++">C++</option>
+                                <option value="node.js">NODE.JS</option>
+	                            <option value=""></option>
+                        	</select>
+                        </div>
+                        <div class="form-group">
+                           <label>Your Experience</label>
+                           
+                            <select id="input_sex" class="form-control">
+	                            <option value="0__1">0__1</option>
+	                            <option value="0__2">0__2</option>
+	                            <option value="1__3">1__3</option>
+	                            <option value="3 too more">3 too more</option>
+                            
+                            
+                        	</select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+           
+        <div style="margin-top: 1em;">
+            <button type="button" class="btn btn-primary btn-lg btn-block" >Submit</button>
+        </div>
+    </form>
+	</div>    
+
+
+
+
+	<!-- jq & popper & bootstrap .j-->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
